@@ -1,0 +1,24 @@
+# Build files
+node_modules/
+dist/
+*.py
+deploy-surge.ps1
+download-assets.ps1
+download_assets.py
+patch_router.py
+patch_no_login.py
+rename_assets.py
+search_guard.py
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# Temp
+*.log
+source-app.js
+source-style.css
