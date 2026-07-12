@@ -1,22 +1,13 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="zh-CN">
   <head>
-    <meta charset="utf-8">
-    <title>智轨慧行</title>
-    <script>
-      // GitHub Pages SPA redirect trick for project pages
-      var pathSegmentsToKeep = 1;
-      var l = window.location;
-      l.replace(
-        l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
-        l.pathname.split('/').slice(0, 1 + pathSegmentsToKeep).join('/') + '/?/' +
-        l.pathname.slice(1).split('/').slice(pathSegmentsToKeep).join('/').replace(/&/g, '~and~') +
-        (l.search ? '&' + l.search.slice(1).replace(/&/g, '~and~') : '') +
-        l.hash
-      );
-    </script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>智轨慧行 - 北京地铁10号线乘务排班与调度管理系统</title>
+    <script type="module" crossorigin src="/zhiguihuixing-ai-dispatch-vue/assets/index-CNwfG7Z6.js"></script>
+    <link rel="stylesheet" crossorigin href="/zhiguihuixing-ai-dispatch-vue/assets/index-4m8n0lXv.css">
   </head>
   <body>
-    <p>Redirecting...</p>
+    <div id="app"></div>
   </body>
 </html>
